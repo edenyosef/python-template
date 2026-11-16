@@ -15,6 +15,34 @@ This is a template repository for the Tel Hai Excellenteam (THE) Python course.
 
 All exercises and submissions should follow the format of this repository. For your convenience, you can start each assignment by cloning this template.
 
+## Python Task 02
+
+The eleven exercises and three bonus decorators are under `src/`. Each module
+can be run directly and keeps the filename specified in the assignment.
+Both versions of interleaving share a module and implementation.
+
+Set up and run the checks from the repository root with Python 3.10.
+
+```console
+python -m pip install -r requirements.txt
+python -m pip install pytest pylint
+python main.py
+python -m pytest
+```
+
+The logo and encoded PNG come from the [course notebooks][notebooks]. They are
+bundled so these scripts run without a separate notebook download.
+
+```console
+python src/5.3.parsle_tongue.py
+python src/6.4.remember_remember.py
+```
+
+The PostOffice extension preserves urgent-message ordering. It keeps read
+messages available to search and supports an optional subject.
+
+[notebooks]: https://github.com/PythonFreeCourse/Notebooks
+
 ## Environment Setup and Pycharm Installation
 During the course we will utilize Linux based operating system (OS), to run and execute programs.
 
